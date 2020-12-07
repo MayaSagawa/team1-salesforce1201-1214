@@ -4,3 +4,8 @@
     font-weight: bold;
     border: solid 3px #000000;
 }
+
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
