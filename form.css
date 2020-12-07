@@ -1,7 +1,10 @@
 .box1 {
- margin: 2em auto;
- padding: 1em;
- width: 90%;
- background-color: #fff; /* 背景色 */
- border: 1px solid #ccc; /* 枠線 */
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
 }
