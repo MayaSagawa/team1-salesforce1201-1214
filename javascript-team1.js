@@ -1,6 +1,3 @@
-<script type="text/javascript"> 
-<!-- 
-
 function check(){
 
 	var flag = 0;
@@ -54,5 +51,3 @@ function check(){
 	}
 
 }
-
-// -->
