@@ -1,9 +1,16 @@
+body {
+  color: #333;
+  background-color:#fcfcfc;
+}
+
 .box1 {
   margin: 2em auto;
   padding: 1em;
   width: 70%;
   background-color: #fff; /* 背景色 */
   border: 1px solid #ccc; /* 枠線 */
+  background-color: #fafafa;
+  padding-bottom: 2rem;
 }
 
 
@@ -15,7 +22,7 @@
 }
 
 .content {
-  width: 200px;
+  width: 230px;
 }
 
 
@@ -25,11 +32,29 @@ input, textarea {
 
 h1 {
   text-align: center;
+  margin-top: 2em;
 }
 
 .item {
   text-align: center;
 }
+
+.button {
+  width: 30%;
+}
+
+.required {
+  margin-left: 15px;
+}
+
+.grey {
+  color: grey;
+}
+
+.red {
+  color: red;
+}
+
 
 .button {
   width: 30%;
