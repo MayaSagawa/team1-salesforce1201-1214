@@ -48,9 +48,12 @@
             <div class="flexbox">
                 <label class="content" for="zip">郵便番号</label>
                 <br>
-                <input id="zip01" maxlength="20" name="zip" size="20" type="text" onKeyUp="AjaxZip3.zip2addr(this,'','pref01','addr01');" /><br>
+                <input type="text" name="zip01" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','pref01','addr01');"><br>
             </div>
 
+            <input type="text" name="pref01" size="20"><br>
+            <input type="text" name="addr01" size="60"><br>
+            
             <div class="flexbox">
                 <label class="content" for="state">都道府県</label>
                 <br>
