@@ -7,6 +7,7 @@
     <title>お問い合わせフォーム</title>
 
     <link rel="stylesheet" href="form.css">
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
 </head>
 
 <body>
@@ -47,13 +48,13 @@
             <div class="flexbox">
                 <label class="content" for="zip">郵便番号</label>
                 <br>
-                <input id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
+                <input id="zip" maxlength="20" name="zip" size="20" type="text" onKeyUp="AjaxZip3.zip2addr(this,'','pref01','addr01');" /><br>
             </div>
 
             <div class="flexbox">
                 <label class="content" for="state">都道府県</label>
                 <br>
-               
+               <input type="text" name="state" size="20">
                 <select name="state"　maxlength="20" name="zip" size="20" type="text" />
 <option value="">選択してください</option>
 <option value="北海道">北海道</option>
