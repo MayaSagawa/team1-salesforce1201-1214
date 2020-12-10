@@ -1,0 +1,56 @@
+body {
+  color: #333;
+  background-color:#fcfcfc;
+}
+
+.box1 {
+  margin: 2em auto;
+  padding: 1em;
+  width: 70%;
+  background-color: #fff; /* 背景色 */
+  border: 1px solid #ccc; /* 枠線 */
+  background-color: #fafafa;
+  padding-bottom: 2rem;
+}
+
+
+
+.flexbox {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+
+.content {
+  width: 230px;
+}
+
+
+input, textarea {
+  width: 40%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.item {
+  text-align: center;
+}
+
+.button {
+  width: 30%;
+}
+
+.required {
+  margin-left: 15px;
+}
+
+.grey {
+  color: grey;
+}
+
+.red {
+  color: red;
+}
