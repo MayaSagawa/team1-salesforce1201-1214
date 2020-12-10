@@ -15,19 +15,21 @@ body {
 
 
 
-.flexbox {
+/* .flexbox {
   display: flex;
   margin-top: 10px;
   margin-left: 20%;
-}
+} */
 
 .content {
   width: 230px;
+  margin-left: 30px;
 }
 
 
 input, textarea {
-  width: 40%;
+  width: 80%;
+  margin: 1rem 1rem 2rem 1rem;
 }
 
 h1 {
