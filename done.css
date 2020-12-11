@@ -24,4 +24,8 @@ h2{
       h2 {
         font-size: 6px;
       }
+  
+      .sp_br{
+        display: none;
+      }
   }
