@@ -31,11 +31,12 @@ function check(){
 
 	}
     
-    else if(document.getElementById("00N4x000005CRQ9")  == "" ) { // 「お問い合わせ内容」の入力をチェック
+    else if(document.getElementById("00N4x000005CRQ9") == "" ) { // 「お問い合わせ内容」の入力をチェック
 
 		flag = 1;
 
 	}
+	// 設定終了
 	if(flag){
 
 		window.alert('必須項目に未入力がありました'); // 入力漏れがあれば警告ダイアログを表示
@@ -48,4 +49,4 @@ function check(){
 
 	}
 
-}}
+}
