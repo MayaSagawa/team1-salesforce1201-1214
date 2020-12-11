@@ -31,7 +31,7 @@ function check(){
 
 	}
     
-    else if(document .getElementById("00N4x000005CRQ9")  == "" ) { // 「お問い合わせ内容」の入力をチェック
+    else if(document.getElementById("00N4x000005CRQ9")  == "" ) { // 「お問い合わせ内容」の入力をチェック
 
 		flag = 1;
 
