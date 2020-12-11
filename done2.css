@@ -1,0 +1,26 @@
+h1{
+  text-align: center;
+  color: #333333;
+  margin-top: 4rem;
+}
+
+h2{
+  text-align: center;
+  color: #333333;
+  margin-top: 4rem;
+  font-size: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (min-width: 650px){	
+    .pc { display:block; }
+    .sp { display:none; }
+  }
+  @media screen and (max-width: 650px){	
+    .pc { display:none; }
+    .sp { display:block; }
+  }
+  
