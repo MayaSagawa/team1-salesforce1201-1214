@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>お問い合わせフォーム</title>
-
+    
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
     <link rel="stylesheet" href="form.css">
 </head>
 
@@ -39,15 +40,9 @@
             </div>
 
             <div class="flexbox">
-                <label class="content" for="country">国</label>
-                <br>
-                <input id="country" maxlength="40" name="country" size="20" type="text" />
-                <br>
-            </div>
-            <div class="flexbox">
                 <label class="content" for="zip">郵便番号</label>
                 <br>
-                <input id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
+                <input id="zip" maxlength="20" name="zip" size="20" type="text" onKeyUp="AjaxZip3.zip2addr(this,'','state','city','street');"/><br>
             </div>
 
             <div class="flexbox">
