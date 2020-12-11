@@ -18,10 +18,10 @@ h2{
 @media screen and (max-width: 768px) {
   /* 768pxまでの幅の場合に適応される */
       h1 {
-        font-size: small;
+        font-size: 15px;
       }
 
       h2 {
-        font-size: small;
+        font-size: 8px;
       }
   }
