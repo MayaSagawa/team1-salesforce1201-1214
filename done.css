@@ -15,14 +15,13 @@ h2{
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-  /* 480pxまでの幅の場合に適応される */
+@media screen and (min-width: 480px) {
   .sp_br{
         display: none;
       }
   }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 
    h1 {
      font-size: 17px;
