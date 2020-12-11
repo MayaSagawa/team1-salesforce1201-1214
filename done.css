@@ -17,18 +17,19 @@ h2{
 
 @media screen and (max-width: 480px) {
   /* 480pxまでの幅の場合に適応される */
-      h1 {
-        font-size: 17px;
-      }
-
-      h2 {
-        font-size: 6px;
-      }
-  
-  }
-
-@media screen and (min-width: 480px) {
   .sp_br{
         display: none;
       }
+  }
+
+@media screen and (min-width: 480px) {
+
+   h1 {
+     font-size: 17px;
+   }
+
+   h2 {
+      font-size: 6px;
+   }
+  
   }
