@@ -46,9 +46,9 @@
                 <br>
             </div>
             <div class="flexbox">
-                <label class="content" for="zip">郵便番号</label>
+                <label for="zip">郵便番号</label>
                 <br>
-                <input type="text" name="zip01" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','pref01','addr01');"><br>
+                <input id="zip" maxlength="20" name="zip" size="20" type="text" onKeyUp="AjaxZip3.zip2addr(this,'','state','city','street');"/><br>
             </div>
 
             <input type="text" name="addr01" size="60"><br>
