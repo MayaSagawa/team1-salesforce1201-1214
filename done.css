@@ -14,3 +14,14 @@ h2{
 .center {
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  /* 768pxまでの幅の場合に適応される */
+      h1 {
+        font-size: small;
+      }
+
+      h2 {
+        font-size: small;
+      }
+  }
